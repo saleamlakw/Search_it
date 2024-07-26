@@ -1,6 +1,6 @@
-# Simple Search Engine
+# Search_it Simple Search Engine
 
-This project is a simple search engine that ranks documents using a vector space model and cosine similarity. The web application is built with Django and leverages various Python libraries for document processing and ranking.
+This project is a simple search engine that ranks documents using a vector space model and cosine similarity. The web application is built with Django for the backend and HTML, CSS, Bootstrap, and JavaScript for the frontend.
 
 ## Features
 
@@ -10,12 +10,21 @@ This project is a simple search engine that ranks documents using a vector space
 
 ## Technologies Used
 
+### Backend
+
 - Django (Python)
 - Numpy
 - Scikit-learn
 - NLTK
 - PyPDF2
 - Python-docx
+
+### Frontend
+
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
 
 ## Prerequisites
 
@@ -43,25 +52,20 @@ This project is a simple search engine that ranks documents using a vector space
     pip install -r requirements.txt
     ```
 
-4. Install frontend dependencies (if any):
 
-    ```bash
-    npm install
-    ```
-
-5. Apply the database migrations:
+4. Apply the database migrations:
 
     ```bash
     python manage.py migrate
     ```
 
-6. Create a superuser to access the admin panel:
+5. Create a superuser to access the admin panel:
 
     ```bash
     python manage.py createsuperuser
     ```
 
-7. Collect static files:
+6. Collect static files:
 
     ```bash
     python manage.py collectstatic
@@ -73,5 +77,11 @@ Start the Django development server:
 
 ```bash
 python manage.py runserver
+
 ```
 ## Visit http://127.0.0.1:8000/ in your web browser to see the application in action.
+homepage
+<img width="952" alt="search" src="https://github.com/user-attachments/assets/036b830c-05c8-4505-bbea-f4937698c9a8">
+resultpage
+<img width="959" alt="result" src="https://github.com/user-attachments/assets/3297d47e-6962-441e-bfc1-d1fc5502022a">
+
